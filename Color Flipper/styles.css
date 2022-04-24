@@ -1,0 +1,31 @@
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    color:#306364;
+}
+.nav-center {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links, h1 {
+position: relative;
+display: flex;
+
+list-style-type: none;
+
+}
+
+li {
+    position: relative;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+}
+.container{
+   display: flex;
+   justify-content: center;
+    
+
+
+}
