@@ -78,7 +78,17 @@ const filterBtns = document.querySelectorAll(".filter-btn");
 
 window.addEventListener("DOMContentLoaded", function(){
   displayMenuItems(menu);
+
+
+
+
 });
+
+
+
+
+
+
 
 filterBtns.forEach(function(btn){
   btn.addEventListener("click", function(e){
@@ -88,13 +98,14 @@ filterBtns.forEach(function(btn){
       if (menuItem.category === category) {
         return menuItem;
       }
+    });
       if (category === "all") {
         displayMenuItems(menu);
       } else {
         displayMenuItems(menuCategory);
-      
-      };
-});
+      }
+      });
+    });
   
   
 
